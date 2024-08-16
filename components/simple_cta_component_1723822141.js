@@ -16,14 +16,40 @@ Vue.component("simple_cta_component_1723822141", {
                 <div id="cta-button-container" class="flex">
                     <a id="cta-button" href="#" class="flex-1 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Start Building Now</a>
                 </div>
+
+                <div id="cta-form-container" class="mt-8">
+                    <form id="cta-form" class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                            <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-purple-500 dark:focus:border-purple-500" placeholder="Your name" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+                            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-purple-500 dark:focus:border-purple-500" placeholder="your.email@example.com" required>
+                        </div>
+                        <button type="submit" class="w-full text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Subscribe</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-        `,
+    `,
     data() {
         return {
             expanded: false,
             tab: null,
+            name: '',
+            email: ''
         };
     },
-});
+    methods: {
+        // Start of submitForm method
+        submitForm() {
+            // Handle form submission logic here
+            console.log('Form submitted with:', this.name, this.email);
+            // Reset form fields
+            this.name = '';
+            this.email = '';
+        }
+        // End of submitForm method
+    }
