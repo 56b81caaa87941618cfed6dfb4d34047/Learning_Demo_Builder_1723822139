@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How should the form be structured in terms of input fields and data types? For example, should it include text inputs, date pickers, dropdown selections, etc.?\", \"option1\": \"Include basic text inputs and a submit button\", \"option2\": \"Include text inputs, a date picker, dropdown selections, and a submit button\"}, {\"question 2\": \"Do you need the form to have any specific functionalities, such as validation checks or the ability to upload files?\", \"option1\": \"Yes, include validation checks for email and mandatory fields\", \"option2\": \"Yes, include both validation checks and the ability to upload files\"}], \"input_token_count\": 270, \"output_token_count\": 145, \"time_taken\": \"0:00:04.288505\"}",
+        "message_id": "guest16082024172830",
+        "timestamp": "16082024172838",
+        "component_file_name": "simple_cta_component_1723822141",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Provide real-time validation feedback on form inputs\", \"checked\": true}, {\"feature\": \"Enable auto-save for partially filled forms\", \"checked\": false}, {\"feature\": \"Add a progress bar for form completion\", \"checked\": true}, {\"feature\": \"Implement captcha to prevent spam submissions\", \"checked\": false}, {\"feature\": \"Offer multi-language support for form instructions and error messages\", \"checked\": true}, {\"feature\": \"Enable form submission confirmation via email or SMS\", \"checked\": false}], \"input_token_count\": 224, \"output_token_count\": 119, \"time_taken\": \"0:00:03.733817\"}",
         "message_id": "guest16082024172830",
