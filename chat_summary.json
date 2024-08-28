@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How should the form be structured in terms of input fields and data types? For example, should it include text inputs, date pickers, dropdown selections, etc.?\", \"option1\": \"Include basic text inputs and a submit button\", \"option2\": \"Include text inputs, a date picker, dropdown selections, and a submit button\"}, {\"question 2\": \"Do you need the form to have any specific functionalities, such as validation checks or the ability to upload files?\", \"option1\": \"Yes, include validation checks for email and mandatory fields\", \"option2\": \"Yes, include both validation checks and the ability to upload files\"}], \"input_token_count\": 270, \"output_token_count\": 145, \"time_taken\": \"0:00:04.288505\"}",
         "timestamp": "16082024172838",
         "message_id": "guest16082024172830"
+    },
+    {
+        "role": "user",
+        "content": "Add a top nav with placeholder content of Crypto SWAP",
+        "timestamp": "28082024143103",
+        "message_id": "guest28082024143102"
     }
 ]
