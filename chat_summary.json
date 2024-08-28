@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1723822141",
-        "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Working on adding a form for you.",
-        "timestamp": "16082024172832",
-        "message_id": "guest16082024172830"
-    },
-    {
         "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Provide real-time validation feedback on form inputs\", \"checked\": true}, {\"feature\": \"Enable auto-save for partially filled forms\", \"checked\": false}, {\"feature\": \"Add a progress bar for form completion\", \"checked\": true}, {\"feature\": \"Implement captcha to prevent spam submissions\", \"checked\": false}, {\"feature\": \"Offer multi-language support for form instructions and error messages\", \"checked\": true}, {\"feature\": \"Enable form submission confirmation via email or SMS\", \"checked\": false}], \"input_token_count\": 224, \"output_token_count\": 119, \"time_taken\": \"0:00:03.733817\"}",
-        "timestamp": "16082024172837",
-        "message_id": "guest16082024172830"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How should the form be structured in terms of input fields and data types? For example, should it include text inputs, date pickers, dropdown selections, etc.?\", \"option1\": \"Include basic text inputs and a submit button\", \"option2\": \"Include text inputs, a date picker, dropdown selections, and a submit button\"}, {\"question 2\": \"Do you need the form to have any specific functionalities, such as validation checks or the ability to upload files?\", \"option1\": \"Yes, include validation checks for email and mandatory fields\", \"option2\": \"Yes, include both validation checks and the ability to upload files\"}], \"input_token_count\": 270, \"output_token_count\": 145, \"time_taken\": \"0:00:04.288505\"}",
-        "timestamp": "16082024172838",
-        "message_id": "guest16082024172830"
-    },
-    {
-        "role": "user",
-        "content": "Add a top nav with placeholder content of Crypto SWAP",
-        "timestamp": "28082024143103",
-        "message_id": "guest28082024143102"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Great, adding a top navigation with placeholder content for Crypto SWAP.",
-        "timestamp": "28082024143103",
-        "message_id": "guest28082024143102"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the top navigation bar to be sticky or static as the users scroll through the page?\", \"option1\": \"Sticky\", \"option2\": \"Static\"}, {\"question 2\": \"For the placeholder content of 'Crypto SWAP', do you want it as a title in the center of the nav bar or as an item in the nav menu?\", \"option1\": \"Title in the center\", \"option2\": \"Item in the nav menu\"}], \"input_token_count\": 314, \"output_token_count\": 109, \"time_taken\": \"0:00:05.127184\"}",
-        "timestamp": "28082024143110",
-        "message_id": "guest28082024143102"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive tutorial mode for beginners to learn Crypto SWAP basics\", \"checked\": true}, {\"feature\": \"Dynamic form inputs validation for seamless user experience\", \"checked\": true}, {\"feature\": \"Customizable themes for user interface to enhance visual experience\", \"checked\": false}, {\"feature\": \"Real-time data visualization for tracking crypto market trends\", \"checked\": false}, {\"feature\": \"User settings page for personalized app configurations\", \"checked\": true}, {\"feature\": \"Feedback system for user suggestions and error reporting\", \"checked\": true}], \"input_token_count\": 268, \"output_token_count\": 126, \"time_taken\": \"0:00:05.883669\"}",
-        "timestamp": "28082024143111",
-        "message_id": "guest28082024143102"
-    },
-    {
-        "role": "user",
-        "content": "replace every thing with top nav with Crypto Swap",
-        "timestamp": "28082024143529",
-        "message_id": "guest28082024143528"
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement a responsive top navigation bar customized for Crypto Swap\", \"checked\": true}, {\"feature\": \"Add a dynamic drop-down menu under the top nav for quick navigation to key features of Crypto Swap\", \"checked\": false}, {\"feature\": \"Incorporate a live crypto price ticker in the top nav for instant market updates\", \"checked\": false}, {\"feature\": \"Include a search bar in the top nav for easy discovery of cryptocurrencies and features\", \"checked\": true}, {\"feature\": \"Enable user account access and settings in the top nav for easy profile management\", \"checked\": true}, {\"feature\": \"Embed a theme switcher (light/dark mode) in the top nav for user preference setting\", \"checked\": false}], \"input_token_count\": 282, \"output_token_count\": 154, \"time_taken\": \"0:00:04.021434\"}",
+        "message_id": "guest28082024143528",
+        "timestamp": "28082024143534",
+        "component_file_name": "blank_component_1724855342",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_acknowledge",
         "content": "Okay, working on replacing everything with \"Crypto Swap\" in the top nav.",
+        "message_id": "guest28082024143528",
         "timestamp": "28082024143529",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "replace every thing with top nav with Crypto Swap",
+        "message_id": "guest28082024143528",
+        "timestamp": "28082024143529",
+        "component_file_name": "blank_component_1724855342",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive tutorial mode for beginners to learn Crypto SWAP basics\", \"checked\": true}, {\"feature\": \"Dynamic form inputs validation for seamless user experience\", \"checked\": true}, {\"feature\": \"Customizable themes for user interface to enhance visual experience\", \"checked\": false}, {\"feature\": \"Real-time data visualization for tracking crypto market trends\", \"checked\": false}, {\"feature\": \"User settings page for personalized app configurations\", \"checked\": true}, {\"feature\": \"Feedback system for user suggestions and error reporting\", \"checked\": true}], \"input_token_count\": 268, \"output_token_count\": 126, \"time_taken\": \"0:00:05.883669\"}",
+        "message_id": "guest28082024143102",
+        "timestamp": "28082024143111",
+        "component_file_name": "blank_component_1724855342",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the top navigation bar to be sticky or static as the users scroll through the page?\", \"option1\": \"Sticky\", \"option2\": \"Static\"}, {\"question 2\": \"For the placeholder content of 'Crypto SWAP', do you want it as a title in the center of the nav bar or as an item in the nav menu?\", \"option1\": \"Title in the center\", \"option2\": \"Item in the nav menu\"}], \"input_token_count\": 314, \"output_token_count\": 109, \"time_taken\": \"0:00:05.127184\"}",
+        "message_id": "guest28082024143102",
+        "timestamp": "28082024143110",
+        "component_file_name": "blank_component_1724855342",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great, adding a top navigation with placeholder content for Crypto SWAP.",
+        "message_id": "guest28082024143102",
+        "timestamp": "28082024143103",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Add a top nav with placeholder content of Crypto SWAP",
+        "message_id": "guest28082024143102",
+        "timestamp": "28082024143103",
+        "component_file_name": "blank_component_1724855342",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How should the form be structured in terms of input fields and data types? For example, should it include text inputs, date pickers, dropdown selections, etc.?\", \"option1\": \"Include basic text inputs and a submit button\", \"option2\": \"Include text inputs, a date picker, dropdown selections, and a submit button\"}, {\"question 2\": \"Do you need the form to have any specific functionalities, such as validation checks or the ability to upload files?\", \"option1\": \"Yes, include validation checks for email and mandatory fields\", \"option2\": \"Yes, include both validation checks and the ability to upload files\"}], \"input_token_count\": 270, \"output_token_count\": 145, \"time_taken\": \"0:00:04.288505\"}",
+        "message_id": "guest16082024172830",
+        "timestamp": "16082024172838",
+        "component_file_name": "simple_cta_component_1723822141",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Provide real-time validation feedback on form inputs\", \"checked\": true}, {\"feature\": \"Enable auto-save for partially filled forms\", \"checked\": false}, {\"feature\": \"Add a progress bar for form completion\", \"checked\": true}, {\"feature\": \"Implement captcha to prevent spam submissions\", \"checked\": false}, {\"feature\": \"Offer multi-language support for form instructions and error messages\", \"checked\": true}, {\"feature\": \"Enable form submission confirmation via email or SMS\", \"checked\": false}], \"input_token_count\": 224, \"output_token_count\": 119, \"time_taken\": \"0:00:03.733817\"}",
+        "message_id": "guest16082024172830",
+        "timestamp": "16082024172837",
+        "component_file_name": "simple_cta_component_1723822141",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Working on adding a form for you.",
+        "message_id": "guest16082024172830",
+        "timestamp": "16082024172832",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "28082024143534",
         "message_id": "guest28082024143528"
     }
 ]
