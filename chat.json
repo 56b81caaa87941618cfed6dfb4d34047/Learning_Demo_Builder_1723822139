@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Great, adding a top navigation with placeholder content for Crypto SWAP.",
+        "message_id": "guest28082024143102",
+        "timestamp": "28082024143103",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Add a top nav with placeholder content of Crypto SWAP",
         "message_id": "guest28082024143102",
