@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the top navigation bar, do you have a specific design or theme in mind from the current app's design?\", \"option1\": \"Yes, it should match the current app's design theme.\", \"option2\": \"No, I'm open to suggestions for the nav bar's design.\"}, {\"question 2\": \"Would you like the navigation bar to be fixed at the top of the screen as users scroll, or should it disappear?\", \"option1\": \"Yes, make it fixed at the top.\", \"option2\": \"No, it can disappear as the user scrolls down.\"}], \"input_token_count\": 371, \"output_token_count\": 133, \"time_taken\": \"0:00:07.105240\"}",
+        "message_id": "guest28082024143657",
+        "timestamp": "28082024143705",
+        "component_file_name": "blank_component_1724855342",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Noted, will implement a top nav bar with \"Crypto SWAP\" placeholder content.",
         "message_id": "guest28082024143657",
