@@ -30,5 +30,11 @@
         "content": "Add a top nav with placeholder content of Crypto SWAP",
         "timestamp": "28082024143103",
         "message_id": "guest28082024143102"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great, adding a top navigation with placeholder content for Crypto SWAP.",
+        "timestamp": "28082024143103",
+        "message_id": "guest28082024143102"
     }
 ]
