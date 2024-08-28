@@ -14,7 +14,7 @@ INSTRUCTION: </div>
 -->
 <template>
 <section id="blank-section" class="bg-white dark:bg-gray-900 flex-1">
-    <div>
+
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
         <nav class="bg-gray-800 p-4">
@@ -28,7 +28,7 @@ INSTRUCTION: </div>
                 </div>
             </div>
         </nav>
-    </div>
+
         </section>  
 
 </template>
