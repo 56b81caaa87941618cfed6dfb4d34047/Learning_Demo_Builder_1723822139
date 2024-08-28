@@ -36,5 +36,11 @@
         "content": "Great, adding a top navigation with placeholder content for Crypto SWAP.",
         "timestamp": "28082024143103",
         "message_id": "guest28082024143102"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the top navigation bar to be sticky or static as the users scroll through the page?\", \"option1\": \"Sticky\", \"option2\": \"Static\"}, {\"question 2\": \"For the placeholder content of 'Crypto SWAP', do you want it as a title in the center of the nav bar or as an item in the nav menu?\", \"option1\": \"Title in the center\", \"option2\": \"Item in the nav menu\"}], \"input_token_count\": 314, \"output_token_count\": 109, \"time_taken\": \"0:00:05.127184\"}",
+        "timestamp": "28082024143110",
+        "message_id": "guest28082024143102"
     }
 ]
