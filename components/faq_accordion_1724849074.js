@@ -2,8 +2,8 @@
   <div>
     <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
       <div class="space-y-3 text-center">
-        <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-        <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+        <h1 class="text-4xl text-gray-800 font-semibold pt-10">Frequently Asked Questions</h1>
+        <p class="text-gray-600 max-w-lg mx-auto text-lg">Get answers to common queries about our learning demo app builder</p>
       </div>
       <div class="mt-14 max-w-2xl mx-auto">
         <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -36,11 +36,11 @@ export default {
     return {
       selectedFaq: null,
       faqs: [
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4" },
-        { q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5", a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5" }
+        { q: "What is this app for?", a: "This app is designed to help you build applications specifically for learning demos. It provides a user-friendly platform to create interactive and engaging demonstrations for educational purposes." },
+        { q: "Do I need coding experience to use this app?", a: "No, our app is designed to be user-friendly for both beginners and experienced developers. It offers drag-and-drop features and pre-built templates, making it easy for anyone to create learning demos without extensive coding knowledge." },
+        { q: "Can I customize the appearance of my learning demos?", a: "Absolutely! Our app provides a wide range of customization options. You can change colors, fonts, layouts, and add your own branding elements to make your learning demos unique and aligned with your needs." },
+        { q: "Is it possible to integrate multimedia elements in my demos?", a: "Yes, you can easily incorporate various multimedia elements such as images, videos, audio clips, and interactive quizzes into your learning demos. This helps create more engaging and comprehensive learning experiences." },
+        { q: "Can I share my created demos with others?", a: "Certainly! Once you've built your learning demo, you can easily share it with others through a unique URL, embed it on your website, or export it for offline use. This flexibility allows you to reach your audience effectively, whether they're students, colleagues, or clients." }
       ]
     }
   },
