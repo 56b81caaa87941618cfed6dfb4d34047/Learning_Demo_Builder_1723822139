@@ -33,6 +33,8 @@ INSTRUCTION: </div>
 
 </template>
 
+</template>
+
 <script>
 export default {
     name: "BlankComponent",
