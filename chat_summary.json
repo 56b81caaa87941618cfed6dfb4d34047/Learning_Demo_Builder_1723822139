@@ -48,5 +48,11 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive tutorial mode for beginners to learn Crypto SWAP basics\", \"checked\": true}, {\"feature\": \"Dynamic form inputs validation for seamless user experience\", \"checked\": true}, {\"feature\": \"Customizable themes for user interface to enhance visual experience\", \"checked\": false}, {\"feature\": \"Real-time data visualization for tracking crypto market trends\", \"checked\": false}, {\"feature\": \"User settings page for personalized app configurations\", \"checked\": true}, {\"feature\": \"Feedback system for user suggestions and error reporting\", \"checked\": true}], \"input_token_count\": 268, \"output_token_count\": 126, \"time_taken\": \"0:00:05.883669\"}",
         "timestamp": "28082024143111",
         "message_id": "guest28082024143102"
+    },
+    {
+        "role": "user",
+        "content": "replace every thing with top nav with Crypto Swap",
+        "timestamp": "28082024143529",
+        "message_id": "guest28082024143528"
     }
 ]
